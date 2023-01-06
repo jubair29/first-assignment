@@ -1,11 +1,11 @@
-/* common css------------- */
+/* common css---------------------------------------------- */
 *{
     margin: 0 auto;
     list-style: none;
     font-family: 'Work Sans', sans-serif;
 }
 
-/* header style------------- */
+/* header style----------------------------------------- */
 .header_section{
     background-image: url(images/banner/banner3.png);
     width: 1600px;
@@ -40,7 +40,7 @@
     color: #005FAC;
 }
 
-/* failure style---------- */
+/* failure style------------------------------------------ */
 .failure_text{
     padding-top: 250px;
     margin-right: 250px;
@@ -51,7 +51,7 @@
     display: flex;
     gap: 85px;
     margin-top: 130px;
-    /* justify-content: space-around; */
+    
 }
 .fail_title{
     font-weight: 700;
@@ -73,4 +73,37 @@
 }
 .man_image{
     margin-left: 206px;
+}
+
+/* plan style------------------------------------ */
+
+.plan_item{
+    display: flex;
+    gap: 86px;
+    justify-content: space-between;
+    padding: 50px 130px 130px;
+}
+.plan_text{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+
+}
+.plan_section{
+    margin-top: 150px;
+}
+.plan_sub_item{
+    text-align: center;
+}
+.item_title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+.item_dep{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
 }
